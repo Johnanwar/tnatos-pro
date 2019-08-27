@@ -27,12 +27,13 @@
           </div>
       <div class="col-md-6 d-flex">
       <span> <i class="fas  mr-2 fa-map-marker-alt"></i> </span>
-      <p> 4 Ali El-Ruby St., El-Merghany, Heliopolis, Cairo, Egypt.</p>
+      <p>El-Mohandsen Branch 75 Syria St – Giza
+        </p>
       </div>
   
       <div class="col-md-3 d-flex">
         <span> <i class="fas fa-mobile-alt mr-2"></i> </span>
-        <p> (+2) 01100207840</p>
+        <p> 0233456828 - 01069218631 </p>
       </div>
     </div>
    </div>
@@ -42,28 +43,38 @@
 
    <!-- start naaaaaaaaaaav baaaaaaaaaaaaaaaar -->
    <nav class="navbar navbar-expand-lg navbar-light big-nav">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand logo" href="index.html"><img class="img-responsive img-fluid" src="./images/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mr-4">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" key="home" href="#">Home </a>
+          <span class="line"></span>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us </a>
+        <li id="language-deDE1" class="nav-item">
+          <a class="nav-link" key="About-Us" href="#">About Us </a>
+          <span class="line"></span>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#"> Surgeries </a>
+          <span class="line"></span>
+
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Cases</a>
+          <span class="line"></span>
+
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">contact us</a>
+          <span class="line"></span>
+
         </li>
+  
+
        
       </ul>
     </div>
@@ -74,9 +85,17 @@
 
    <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide swiper-slide-1"> <img src="./images/4.jpg" alt=""></div>
-      <div class="swiper-slide swiper-slide-1"> <img src="./images/5.jpg" alt=""></div>
-      <!-- <div class="swiper-slide" style="background-image:url(./images/4.jpg)"></div> -->
+      <div class="swiper-slide swiper-slide-1"> <img src="./images/4 -1.jpg" alt="">
+      <p> More Than 15 Years
+        Experience <br> in 
+        Spinal Endoscopy Surgery 
+        </p>
+    </div>
+      <div class="swiper-slide swiper-slide-2"> <img src="./images/5 =1.jpg" alt="">
+      <p> Innovative third generation in spinal laparoscopic surgery worldwide and his research has been published in many medical and scientific sites and journals
+        Owns the only center in the Middle East which is considered an integrated organization for all laparoscopic spine surgeries
+        </p>
+    </div>
     </div>
 
     <!-- Add Pagination -->
@@ -97,10 +116,11 @@
               <p>ALL RIGHTS RESERVED to <a href="https://dpmegypt.com/" class="font-weight-bold"> DPM</a></p>
             </div>
             <div class="social">
-              <span><a href=""> <i class="fab fa-facebook-f"></i></a></span>
-              <span><a href=""> <i class="fab fa-twitter"></i></a></span>
-              <span><a href=""><i class="fab fa-youtube"></i></a></span>
-              <span> <a href=""> <i class="fab fa-instagram"></i> <i class="fab fa-whatsapp"></i> </a></span>
+              <span><a href=" https://www.facebook.com/doctorheshammagdy/"> <i class="fab fa-facebook-f"></i></a></span>
+              <!-- <span><a href=""> <i class="fab fa-twitter"></i></a></span> -->
+              <span><a href=" https://www.youtube.com/channel/UC8V8eD0yq6yDarLYJO-nHUw"><i class="fab fa-youtube"></i></a></span>
+              <span> <a href="https://www.instagram.com/doctorheshammagdy/"> <i class="fab fa-instagram"></i>  </a></span>
+              <span> <a href="">  <i class="fab fa-whatsapp"></i> </a></span>
             </div>
          </div>
      </div>
@@ -123,8 +143,29 @@
     <script src="js/jquery-3.3.1.min.js"></script>    
     <script src="jS/bootstrap.min.js"></script>
   <script src="js/popper.min.js" ></script> -->
+  <script src="/unpkg.com/internationalisation"></script>
   <script src="js/swiper.min.js" ></script>
- 	<script src="js/main.js"></script>
+   <script src="js/main.js"></script>
+   <!-- <script>
+     var langarr ={
+       'en':{
+         'home':'home',
+         'about-us':'about us'
+       },
+       'ar':{
+        'home':'يسيه',
+         'about-us':'من نحن'
+       }
+     };
+     $(function(){
+       $("translate").click(function(){
+         var lang = $(this).attr('id');
+         $("lang").each(function(index,element){
+           $(this).text(langarr[lang][$(this).attr('key')] )
+         })
+       })
+     })
+   </script> -->
 </body>
 </html>
 

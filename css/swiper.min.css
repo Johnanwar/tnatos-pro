@@ -21,6 +21,9 @@
   padding: 10px;
   font-size: 18px;
 }
+.swiper-button-prev:focus , .swiper-button-next:focus{
+ outline: none;
+}
 .swiper-button-prev i:hover , .swiper-button-next i:hover{
   color: #fff;
   background-color: #007aff;
