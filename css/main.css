@@ -216,23 +216,24 @@ a:hover{
 	.swiper-slide img {
 		height: 450px;
 	}
+	.swiper-slide-1 p {
+		color: #fff;
+		font-size: 20px;
+		width: 70%;
+		right: -51px;
+	}
+	.swiper-slide-2 p {
+		width: 90%;
+		right: 0;
+		font-size: 18px;
+		height: auto;
+		top: 8%;
+	}
+	.swiper-button-prev {
+		top: 187px;
+	}
 }
-.swiper-slide-1 p {
-    color: #fff;
-    font-size: 20px;
-    width: 70%;
-    right: -51px;
-}
-.swiper-slide-2 p {
-    width: 90%;
-    right: 0;
-    font-size: 18px;
-    height: auto;
-    top: 8%;
-}
-.swiper-button-prev {
-    top: 187px;
-}
+
 	/* slider */
 
   }
