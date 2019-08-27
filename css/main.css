@@ -214,7 +214,7 @@ a:hover{
 	}
 	/* slider */
 	.swiper-slide img {
-		height: 450px;
+		height: 400px;
 	}
 	.swiper-slide-1 p {
 		color: #fff;
@@ -230,7 +230,7 @@ a:hover{
 		top: 8%;
 	}
 	.swiper-button-prev {
-		top: 187px;
+		top: 160px;
 	}
 }
 
