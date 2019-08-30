@@ -29,16 +29,12 @@
   background-color: #007aff;
 }
 .swiper-button-next{
-  position: absolute;
-  left: 0px;
+  right: 15px;
 }
-.swiper-button-prev{
-  top: 235px;
-  left: 0;
-}
+
 .swiper-pagination-bullet-active{
   background-color: #fff;
 }
-.swiper-container{
+.swiper-container , .address{
   overflow: hidden;
 }
