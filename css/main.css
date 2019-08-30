@@ -208,7 +208,7 @@ overflow: hidden
 	 top: 0;
 	 right: 0;
 	 left: 0;
-	 height: 50px;
+	 height: 70px;
 	 margin-bottom: 0;
 	 padding: 30px;
 	 position: relative;
@@ -245,7 +245,7 @@ overflow: hidden
 	}
 	/* slider */
 	.swiper-slide img {
-		height: 350px;
+		height: 360px;
 	}
 	.swiper-slide-1 p {
 	    color: #fff;
