@@ -52,8 +52,8 @@ a:hover{
 	color: #fff;
 }
 .small-nav{
-	background-color: #09335d;
-	color: #fff;
+	background-color: #fff;
+	color: #09335d;
 	align-items: center;
 	position: relative;
 }
@@ -75,17 +75,17 @@ a:hover{
 .logo img{
 	width: 125px;
     height: 76px;
-    background-color: #041b3d;
+    /* background-color: #041b3d; */
 }
 .navbar-light .navbar-toggler:focus{
 	outline: none;
 }
 .big-nav{
-	background-color: #fff;
+	background-color:#09335d;
 	box-shadow: 2px 2px 1px #eee;
 }
 .big-nav li a{
-	color: #09335d !important;
+	color: #fff !important;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-family: 'Merriweather', serif;
@@ -165,7 +165,7 @@ a:hover{
 }
 /* foooooooooooooooter */
 /* about paaaaaaaaaaaaaaaaaaaaaage */
-.about{
+.about, .contactus{
 	background-color: #f7f7f7;
 }
 .about-left p{
@@ -186,6 +186,31 @@ overflow: hidden
 	-ms-transform: scale(1.2);
 	-o-transform: scale(1.2);
 }
+/* contaaaaaaaaaaaaact us */
+.heading hr{
+	width: 80px;
+	border: 1px solid #09335d;
+}
+.contact-map p{
+	font-size: 18px;
+}
+.contact-map i{
+	color: #09335d;
+}
+.contact-map{
+	background-color: #fff;
+	padding: 10px 5px;
+	box-shadow: 1px 1px 1px #ccc,-1px -1px 1px #ccc;
+}
+.contact-form{
+	width: 60%;
+}
+.contact-form .btn{
+	width: 30%;
+	margin-left: 35%;
+	background-color: #09335d;
+	color: #fff;
+}
 
 
 
@@ -197,14 +222,14 @@ overflow: hidden
 	.small-nav-toggle i  {
 	 display: block;
 	 z-index: 99;
-	 color: #fff;
+	 color: #09335d;
 	 padding-top: 5px;
 	}
 	.small-nav-toggle{
 		display: block;
 	}
 	.small-nav-toggle{
-	 background-color: #09335d;
+	 background-color: #fff;
 	 top: 0;
 	 right: 0;
 	 left: 0;
@@ -226,6 +251,9 @@ overflow: hidden
 	 height: 0;
 	 width: 100%;
 	}
+	.small-nav {
+		color: #fff;
+	}
 	
 	.open .open-small-nav{
 		height: 200px;
@@ -237,6 +265,9 @@ overflow: hidden
 	}
 	.small-nav-phone{
 		margin-top: 18px
+	}
+	.contact-form {
+		width: 80%;
 	}
   }
 @media only screen and (max-width: 500px) {
@@ -267,8 +298,6 @@ overflow: hidden
 		position: absolute;
 		left: 10px;
 	} 
-
-
 	/* slider */
 
   }
