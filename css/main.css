@@ -349,5 +349,8 @@ overflow: hidden
 		left: 10px;
 	} 
 	/* slider */
+	.small-slide{
+		width: 100%;
+	  }
 
   }
