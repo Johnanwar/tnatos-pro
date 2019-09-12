@@ -38,3 +38,10 @@
 .swiper-container , .address{
   overflow: hidden;
 }
+.swiper-container-new{
+  overflow: hidden;
+}
+.small-slide{
+  width: 400px;
+  height: 100%;
+}

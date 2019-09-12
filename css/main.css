@@ -83,6 +83,7 @@ a:hover{
 .big-nav{
 	background-color:#09335d;
 	box-shadow: 2px 2px 1px #eee;
+	border-bottom: 1px solid #fff;
 }
 .big-nav li a{
 	color: #fff !important;
@@ -134,6 +135,7 @@ a:hover{
 /* foooooooooooooooter */
 .my-footer{
 	background-color: #09335d;
+	border-top:1px solid #fff;
 	color: #fff;
 }
 .my-footer .d-flex{
@@ -165,7 +167,7 @@ a:hover{
 }
 /* foooooooooooooooter */
 /* about paaaaaaaaaaaaaaaaaaaaaage */
-.about, .contactus{
+.about, .contactus , .Surgeries , .cases{
 	background-color: #f7f7f7;
 }
 .about-left p{
