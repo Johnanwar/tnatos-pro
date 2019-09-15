@@ -72,6 +72,15 @@ a:hover{
 
 
 /* first naaaaaaaaaaaaaaav baaaaaaaaaaaaaaaart */
+.language{
+	background-color: #fff;
+	color: #09335d;
+	background-color: #fff;
+    color: #09335d;
+    height: 29px;
+    padding: 2px 4px;
+
+}
 .logo img{
 	width: 125px;
     height: 76px;
@@ -97,13 +106,13 @@ a:hover{
 .line{
     width: 0px;
     height: 2px;
-    background-color: #09335d;
-    color: #0b3a66;
+    background-color: #fff;
+    color: #fff;
     position: absolute;
     left: 10px;
 }
 .big-nav li:hover .line{
-	width: 40px;
+	width: 100%;
 }
 /* first naaaaaaaaaaaaaaav baaaaaaaaaaaaaaaart */
 
@@ -131,6 +140,8 @@ a:hover{
 	top: 30%;
 	font-family: 'Merriweather', serif;	
 }
+.swiper-slide-1 p {
+    left: 8%}
 /* end hooooooooooooooooome */
 /* foooooooooooooooter */
 .my-footer{
@@ -232,6 +243,7 @@ overflow: hidden
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
+	overflow: hidden;
 }
 .card-content{
 	padding: 10px;
@@ -247,7 +259,93 @@ overflow: hidden
 	padding: 0 10px;
     font-size: 29px;
 }
+.card-parent:hover img{
+	opacity: .7;
+	transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+}
+/* end surgeyyy */
+/* staaaaaaaaaaaaart cases */
 
+.mySlides {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.award-container .prev,
+.award-container .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    padding: 7px;
+    height: 44px;
+    width: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+    .award-container .prev:hover, .award-container .next:hover {
+        background-color: #eee;
+        color: #333 !important;
+    }
+
+.award-container .next {
+    right: 14px;
+}
+
+.award-container .prev {
+    left: 14px;
+}
+
+.award-small-img .active, .award-small-img .column img:hover {
+    transform: scale(1.08);
+}
+
+.award-container .mySlides img {
+    width: 60%;
+    height: 400px;
+    margin-left: 20%;
+}
+
+.award-small-img .column {
+    overflow: hidden;
+}
+
+    .award-small-img .column img {
+        width: 100%;
+        height: 130px;
+        box-shadow: 2px 2px 1px #eee, -2px -2px 1px #eee;
+        padding: 5px;
+        cursor: pointer;
+        transition: 1s;
+        border: 1px solid #09335d;
+    }
+
+        .award-small-img .active, .award-small-img .column img:hover {
+            transform: scale(1.08);
+            border: unset !important;
+        }
+
+.award-container h2 {
+    font-size: 3em;
+}
+
+.award-container hr {
+    background-color: #6c757d;
+    width: 6%;
+    transition: 1s;
+}
+
+.award-container:hover hr {
+    width: 10%;
+}
 
 
 
@@ -326,7 +424,7 @@ overflow: hidden
 	}
 	/* slider */
 	.swiper-slide img {
-		height: 360px;
+		height: 350px;
 	}
 	.swiper-slide-1 p {
 	    color: #fff;
@@ -352,5 +450,12 @@ overflow: hidden
 	.small-slide{
 		width: 100%;
 	  }
+	  .award-container .mySlides img {
+		width: 100%;
+		 margin-left: 0;
+	}
+	.logo img {
+		height: 85px;
+	}
 
   }
