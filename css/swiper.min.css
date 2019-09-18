@@ -20,7 +20,6 @@
   padding: 5px;
   padding: 10px;
   font-size: 18px;
-  display: none;
 }
 .swiper-button-prev:focus , .swiper-button-next:focus{
  outline: none;

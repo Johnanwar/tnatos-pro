@@ -82,8 +82,8 @@ a:hover{
 
 }
 .logo img{
-	width: 125px;
-    height: 76px;
+    width: 172px;
+    height: 100px;
     /* background-color: #041b3d; */
 }
 .navbar-light .navbar-toggler:focus{
@@ -224,6 +224,7 @@ overflow: hidden
 	color: #fff;
 }
 /* surg paaaaaaaaaaaaaaaaaaaaaeg */
+/*
 .img-parent img{
 	width: 100%;
 	height: 100%;
@@ -266,7 +267,45 @@ overflow: hidden
 	-ms-transform:scale(1.1);
 	-o-transform:scale(1.1);
 	-webkit-transform:scale(1.1);
+}*/
+.surg-2{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 14px 7px #ccc, -2px -2px 13px 6px #ccc;
+   -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	background-color: #fff;
+	padding: 20px;;
 }
+.surg-2 i{
+	color: #007aff;
+	font-size: 22px;
+	margin: 10px!important
+}
+.surg-img{
+	overflow: hidden;
+}
+.surg-img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 14px 7px #ccc, -2px -2px 13px 6px #ccc;
+	transition: .6s;
+	-webkit-transition: .6s;
+	-moz-transition: .6s;
+	-ms-transition: .6s;
+	-o-transition: .6s;
+}
+.surg-img img:hover{
+	transform: scale(1.1);
+	opacity: .7;
+}
+
+
+
 /* end surgeyyy */
 /* staaaaaaaaaaaaart cases */
 
@@ -401,7 +440,7 @@ overflow: hidden
 		margin-top: 18px
 	}
 	.contact-form {
-		width: 80%;
+		width: 100%;
 	}
 
   }
@@ -456,6 +495,9 @@ overflow: hidden
 	}
 	.logo img {
 		height: 85px;
+	}
+	.swiper-button-prev i , .swiper-button-next i{
+		display: none;
 	}
 
   }
