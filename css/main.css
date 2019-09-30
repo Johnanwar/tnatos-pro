@@ -136,7 +136,7 @@ a:hover{
 	font-family: 'Merriweather', serif;	
 }
 .slider3-text{
-    top: 5%;
+    top: 12%;
 	position: absolute;
     color: #fff;
     width: 50%;
@@ -453,6 +453,20 @@ overflow: hidden
 	}
 	.contact-form {
 		width: 100%;
+	}
+	.slider3-text h3{
+		font-size: 16px;
+	}
+	.slider3-text ul {
+		margin-top: 0px!important
+	}
+	.slider3-text {
+		top: 2%;
+		position: absolute;
+		color: #fff;
+		width: 95%;
+		font-size: 14px;
+		right: 2.5%;
 	}
 
   }
