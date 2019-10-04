@@ -153,7 +153,10 @@ a:hover{
 	font-family: 'Merriweather', serif;	
 }
 .swiper-slide-1 p {
-    left: 8%}
+	left: 8%}
+	.slider3-text , .about{
+	font-family: 'Merriweather', serif;	
+	}
 /* end hooooooooooooooooome */
 /* foooooooooooooooter */
 .my-footer{
@@ -194,14 +197,18 @@ a:hover{
 	background-color: #f7f7f7;
 }
 .about-left p{
-	font-size: 20px;
+	font-size: 18px;
 	/* font-weight: bold; */
+}
+.about-left a{
+	font-size: 15px;
 }
 .about-right {
 overflow: hidden
 ;}
 .about-right img{
 	box-shadow: 2px 2px 1px #ccc, -2px -2px 1px #ccc;
+	height: 270px;
 }
 .about-right img:hover{
 	transform: scale(1.2);
@@ -456,6 +463,7 @@ overflow: hidden
 	}
 	.slider3-text h3{
 		font-size: 16px;
+		padding: 0 6px;
 	}
 	.slider3-text ul {
 		margin-top: 0px!important
@@ -464,9 +472,9 @@ overflow: hidden
 		top: 2%;
 		position: absolute;
 		color: #fff;
-		width: 95%;
+		width: 100%;
 		font-size: 14px;
-		right: 2.5%;
+		right: unset;
 	}
 
   }
@@ -481,6 +489,9 @@ overflow: hidden
 		-moz-border-radius:0px 10px 10px 00px ;
 		-ms-border-radius:0px 10px 10px 00px ;
 		-o-border-radius:0px 10px 10px 00px ;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+	bottom: 0;
 }
 }
 @media only screen and (max-width: 500px) {
@@ -501,9 +512,13 @@ overflow: hidden
 		width: 90%;
 		width: 80%;
 		right: 6%;
-		font-size: 18px;
+		font-size: 16px;
 		height: auto;
 		top: 8%;
+	}
+	.about-right img {
+
+...		height: 170px;
 	}
 
 	.swiper-button-next {

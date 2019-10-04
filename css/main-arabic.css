@@ -1,3 +1,56 @@
-.header h3::after{
-	display: none;
+@import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Katibeh&display=swap');
+body{
+	direction: rtl!important;
+}
+a{
+	font-family: 'El Messiri', sans-serif;
+}
+.swiper-container , .swiper-slide-2 p , .swiper-slide-1 p , .slider3-text , .about , .surg-2{
+	font-family: 'Katibeh', cursive;
+}
+.big-nav li a{
+	font-family: 'El Messiri', sans-serif;
+	font-size: 20px;
+}
+.swiper-slide-1 p{
+	right: unset;
+	left: 8%;
+}
+.about-left p{
+	font-size: 23px;
+}
+.surg-2 h5{
+	font-size: 22px;
+}
+ .surg-2{
+	font-size: 18px;
+}
+.award-container .mySlides img {
+	margin-right: 20%;
+}
+.contact-form .btn {
+	margin-right: 35%;
+}
+
+
+
+
+/* mediaaaaaaa query */
+@media only screen and (max-width: 500px){
+.swiper-slide-1 p {
+	font-size:22px;
+	left:6px;
+}
+.swiper-slide-2 p {
+    right: 10%;
+    font-size: 22px;
+}
+.slider3-text h3{
+	font-size: 20px;
+}
+.slider3-text {
+	font-size: 19px;
+	top: 5%;
+}
 }
